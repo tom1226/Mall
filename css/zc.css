@@ -1,0 +1,120 @@
+body{
+	margin: 0px;
+	background-color: rgb(249,249,249);
+	
+	    font-size: 14px;
+	    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+	
+}
+.layout{
+	
+	width: 854px;
+	height: 548px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+.layout .logo{
+	margin: auto;
+	width: 48px;
+	height: 49px;
+}
+.layout .logo img{
+	width: 48px;
+	height: 49px;
+	
+}
+.title{
+	widows: 786px;
+	height: 45px;
+	text-align: center;
+}
+.title30{
+	font-size: 30px;
+	font-weight: normal;
+	color: #333;
+	line-height: 1.5;
+}
+.regbox {
+	height: 246px;
+    width: 332px;
+    padding: 30px 0;
+    line-height: 20px;
+	margin: 0 auto;
+}
+.titn {
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: normal;
+	margin-top: 5px;
+}
+.wrap {
+	margin-top: -20px;
+}
+.wrap .wrap-1{
+	width: 332px;
+	height: 42px;
+}
+
+.wrap .wrap-2{
+	width: 74px;
+	height: 42px;
+	outline: 0 none;
+}
+.phones {
+	width: 258px;
+	height: 36px;
+	position: relative;
+	left: 73px;
+	top: -42px;
+	outline: 0 none;
+}
+.fixed {
+	width: 332px;
+	height: 42px;
+	
+	background-color: #ff6700;
+	margin-top: -10px;
+	border: 1px solid rgba(186,186,186,0.3);
+}
+.btn332 {
+	color: #fff;
+	width: 330px;
+	    height: 42px;
+	    margin: 0 auto;
+	    line-height: 42px;
+	    text-align: center;
+	    font-size: 14px;
+	    display: block;
+	    cursor: pointer;
+	    overflow: hidden;
+		
+}
+.btn332 a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.msg {
+	width: 786px;
+	height: 39px;
+	margin: auto;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+.footer {
+	width: 1349px;
+	height: 80px;
+	margin: auto;
+	line-height: 32px;
+	text-align: center;
+	color: #9d9d9d;
+	padding-top: 8px;
+	
+}
+.footer a{
+	color: #9d9d9d;
+	text-decoration: none;
+}
+.Validform_wrong{
+	position: absolute;
+	left: 37%;
+}

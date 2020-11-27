@@ -1,0 +1,252 @@
+.head {
+	height: 102px;
+	line-height: 102px;
+
+}
+
+.head img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+}
+.head .user a{
+	color: rgb(137,137,137);
+}
+.head h2 {
+	display: inline-block;
+	font-size: 28px;
+	color: #424242;
+	margin-left:40px;
+}
+
+.head p {
+	display: inline-block;
+	margin-left: 20px;
+}
+/* 主体 */
+.con{
+	border-top: 2px solid rgb(255,103,0);
+	background-color: rgb(245,245,245);
+	padding-bottom: 20px;
+}
+.con .container .top{
+	margin-top: 38px;
+	font-size: 14px;
+	color: #424242;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.con .container .top div{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+}
+.con .container .cb{
+	width: 110px;
+}
+.con .container .img{
+	width: 120px;
+	padding-top: 15px;
+}
+.con .container .name{
+	width: 380px;
+	text-align: left;
+}
+.con .container .price{
+	width: 158px;
+}
+.con .container .cont{
+	width: 150px;
+	text-align: center;
+}
+.plus,.reduce{
+	float: lr;
+}
+.number{
+	width: 15px;
+	display: inline-block;
+	outline: 0 none;
+	height: 25px;
+}
+a.num-minus, a.num-plus {
+    display: inline-block;
+    height: 26px;
+    width: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #999;
+	outline: 0 none;
+}
+input.num-input {
+    outline: 0;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    margin-right: -1px;
+    height: 26px;
+    text-align: center;
+    width: 80px;
+    vertical-align: middle;
+}
+
+.con .container .total{
+	width: 201px;
+	/* margin-right: 70px; */
+}
+.con .container .action{
+	width: 80px;
+	color: #999;
+}
+.con .container .action:hover{
+	color: #333;
+	cursor: pointer;
+}
+.con .container .list-cart{
+	font-size: 14px;
+	color: #424242;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.con .container .goods div{
+		float: left;
+}
+.con .container .goods{
+	border-top: 1px solid rgb(224,224,224);
+	height: 117px;
+	line-height: 117px;
+	display: inline-block;
+}
+.con .container .goods .img>img{
+	width: 80px;
+	height: 80px;
+}
+.con .cart_bar{
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+}
+.con .cart_bar .cart_bar_left *{
+	display: inline-block;
+}
+.con .cart_bar .cart_bar_left .span{
+	margin: 0 20px;
+}
+.con .cart_bar .cart_bar_left .num1,.num2{
+	color: rgb(255,103,0);
+}
+.con .cart_bar .cart_bar_fig *{
+	display: inline-block;
+	color: rgb(255,103,0);
+}
+.con .cart_bar .cart_bar_fig p{
+	font-size:20px ;
+	font-weight: 600;
+}
+.con .cart_bar .cart_bar_fig a{
+	    width: 200px;
+	    height: 50px;
+	    line-height: 50px;
+	    font-size: 18px;
+	    margin-left: 50px;
+		background-color: rgb(255,103,0);
+		color: #FFFFFF;
+		text-align: center;
+}
+.footer{
+	height: 332px;
+}
+.footer .service{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid rgb(224,224,224);
+}
+.footer .service li{
+	font-size: 16px;
+	display: inline-block;
+}
+.footer .service li a{
+	color: rgb(121,97,121);
+}
+.footer .service li a:hover{
+	color: #FF6700;
+}
+.footer .service li:first-child{
+	margin-left: 80px;
+}
+.footer .service span{
+	display: inline-block;
+	margin: 0 60px;
+}
+.footer .footer_links ul{
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 35px;
+	height: 200px;
+}
+.footer .footer_links ul li{
+	margin-top: 15px;
+	color: rgb(121,97,121);
+}
+.footer .footer_links ul li a{
+	color: rgb(121,97,121);
+}
+
+.footer .footer_links ul li:first-child{
+	font-size: 14px;
+	color: #000000;
+}
+.footer .footer_links ul li:nth-child(2){
+	margin-top: 25px;
+}
+.footer .footer_links ul:last-child{
+	margin-right: 0;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	border-left: 1px solid rgb(224,224,224) ;
+}
+.footer .customer{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	border: #FF6700 1px solid;
+	line-height: 30px;
+}
+.footer .footer_links img{
+	width: 24px;
+	height: 24px;
+	
+}
+.info{
+	height: 247px;
+	background-color: rgb(250,250,250);
+}
+.info .container div{
+	margin-top: 30px;
+}
+.info .info_fr{
+	margin-left: 10px;
+}
+.info .container .list li{
+	display: inline-block;
+}
+.info .container .list li a{
+	color: rgb(121,97,121);
+}
+.info .container .list li a:hover{
+	color: #FF6700;
+}
+.info .info_fr p{
+	margin: 5px 0;
+}
+.info .info_fr .info_links{
+	
+}
+.info .container .btt{
+	text-align: center;
+}

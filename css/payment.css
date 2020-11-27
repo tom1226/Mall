@@ -1,0 +1,213 @@
+.head {
+	height: 102px;
+	line-height: 102px;
+
+}
+
+.head img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+}
+.head .user a{
+	color: rgb(137,137,137);
+}
+.head h2 {
+	display: inline-block;
+	font-size: 28px;
+	color: #424242;
+	margin-left: 40px;
+}
+
+.head p {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/* 主体 */
+.con {
+	border-top: 2px solid rgb(255, 103, 0);
+	background-color: rgb(245, 245, 245);
+	padding-bottom: 20px;
+}
+.con .con_top{
+	margin-top: 40px;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+.con .con_top img{
+	margin: 50px;
+}
+.con .con_top .con_f h2{
+	margin-top: 70px;
+	font-size: 20px;
+	color: #000000;
+}
+.con .con_top .con_f p{
+	margin-top: 40px;
+	font-size: 16px;
+}
+.con .con_top .con_r{
+	margin: 50px;
+	font-size: 14px;
+}
+.con .con_top .con_r span:last-child{
+	color: rgb(255,103,0);
+	font-size: 20px;
+}
+.con .con_bott{
+	margin-top: 30px;
+	height: 450px;
+	background-color: #FFFFFF;
+	padding: 30px;
+}
+.con .con_bott .choice{
+	font-size: 18px;
+	color: #000000;
+	height: 60px;
+	border-bottom: 1px solid rgb(224,224,224);
+}
+.con .con_bott h1{
+	margin-top: 40px;
+	font-size: 18px;
+	color: #000000;
+}
+.con .con_bott img{
+	border: 1px solid rgb(224,224,224);
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+/* 脚部 */
+.footer {
+	height: 332px;
+}
+
+.footer .service {
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.footer .service li {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.footer .service li a {
+	color: rgb(121, 97, 121);
+}
+
+.footer .service li a:hover {
+	color: #FF6700;
+}
+
+.footer .service li:first-child {
+	margin-left: 80px;
+}
+
+.footer .service span {
+	display: inline-block;
+	margin: 0 60px;
+}
+
+.footer .footer_links ul {
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 35px;
+	height: 200px;
+}
+
+.footer .footer_links ul li {
+	margin-top: 15px;
+	color: rgb(121, 97, 121);
+}
+
+.footer .footer_links ul li a {
+	color: rgb(121, 97, 121);
+}
+
+.footer .footer_links ul li:first-child {
+	font-size: 14px;
+	color: #000000;
+}
+
+.footer .footer_links ul li:nth-child(2) {
+	margin-top: 25px;
+}
+
+.footer .footer_links ul:last-child {
+	margin-right: 0;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	border-left: 1px solid rgb(224, 224, 224);
+}
+
+.footer .customer {
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	border: #FF6700 1px solid;
+	line-height: 30px;
+}
+
+.footer .footer_links img {
+	width: 24px;
+	height: 24px;
+
+}
+
+.info {
+	height: 247px;
+	background-color: rgb(250, 250, 250);
+}
+
+.info .container div {
+	margin-top: 30px;
+}
+
+.info .info_fr {
+	margin-left: 10px;
+}
+
+.info .container .list li {
+	display: inline-block;
+}
+
+.info .container .list li a {
+	color: rgb(121, 97, 121);
+}
+
+.info .container .list li a:hover {
+	color: #FF6700;
+}
+
+.info .info_fr p {
+	margin: 5px 0;
+}
+
+.info .info_fr .info_links {}
+
+.info .container .btt {
+	text-align: center;
+}
+.address-modal{
+	width: 660px;
+	height: 435px;
+}
+.address-modal h2{
+	font-size: 20px;
+	color: #000000;
+	background-color: rgb(245,245,245);
+	height: 60px;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+.regitem{
+	margin-left: 20px;
+	width: 330px;
+	height: 40px;
+}
